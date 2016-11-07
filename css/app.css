@@ -1,0 +1,108 @@
+body{
+	font-family: 'Itim', cursive;
+}
+.logo{
+	max-height: 100px;
+	max-width: 350px;
+}
+#header-container,
+#info-container{
+	background-color: black;
+	color: white;
+}
+#header-container .login,
+#header-container .navbar-toggler{
+	color: white;
+}
+#menu-container{
+	background-color: #f7f7f9;
+}
+.btn.btn-buscar{
+	background-color: black;
+	color: white;
+}
+.btn.btn-buscar:hover{
+	background-color: red;
+}
+input.form-control:focus{
+	border-color: #99c84a;
+}
+#search-bar{
+	padding: 1em;
+}
+#productosCarousel img{
+	margin: 0 auto;
+}
+#info-container h4{
+	margin: 1em 0;
+}
+#info-container img{
+	margin: 0 auto;
+	margin-top: 2em;
+	height: 288px;
+}
+#footer-container{
+	background-color: black;
+	color: white;
+	padding: 3em 0;
+}
+#footer-container h4{
+	color: red;
+	font-size: 18px;
+}
+#footer-container .nav-link{
+	color: white;
+}
+footer p{
+	font-size: 12px;
+	margin-bottom: -40px;
+	text-align: center;
+}
+@media(max-width: 768px){
+	#footer-container [class*="col-"]{
+		margin-bottom: 2em;
+	}
+}
+#breadcrumbs-container .breadcrumb{
+	background-color: white;
+	padding-left: 0;
+}
+#breadcrumbs-container .breadcrumb .breadcrumb-item{
+	color: #1c3643;
+}
+#breadcrumbs-container .breadcrumb .breadcrumb-item.active{
+	color: #95a5a6;
+}
+
+#breadcrumbs-container .breadcrumb .breadcrumb-item+.breadcrumb-item::before{
+	content: ">";
+}
+#productos-container{
+	margin-bottom: 2em;
+}
+
+#productos-container .list-group-item-action.active{
+	background-color: red;
+	border-color: black;
+}
+#productos-container .list-group-+.list-group-{
+	margin-top: 1em;
+}
+@media (max-width: 768px){
+	#productos-container .filtros-toggler{
+		margin-bottom: 1em;
+	}
+	.listado-productos{
+	margin-top: 2em;
+	}
+	.listado-productos .card-img-top{
+		width: 100%;
+	}
+}
+#paginator-container .page-item:not(.active):not(.disabled) .page-link{
+	color: black;
+}
+#paginator-container .page-item.active .page-link, .page-item.active .page-link:focus, .page-item.active .page-link:hover{
+	background-color: black;
+	border-color: red;
+}
