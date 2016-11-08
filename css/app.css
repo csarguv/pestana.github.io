@@ -2,8 +2,8 @@ body{
 	font-family: 'Itim', cursive;
 }
 .logo{
-	max-height: 100px;
-	max-width: 200px;
+	max-height: 60px;
+	max-width: 160px;
 }
 #header-container,
 #info-container{
