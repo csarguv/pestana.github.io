@@ -9,7 +9,6 @@ body{
 	.logo{
 		max-height: 100px;
 		max-width: 200px;
-		text-align: center;
 	}
 }
 #header-container,
@@ -32,7 +31,7 @@ body{
 	background-color: red;
 }
 input.form-control:focus{
-	border-color: #99c84a;
+	border-color: red;
 }
 #search-bar{
 	padding: 1em;
