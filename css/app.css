@@ -79,14 +79,12 @@ footer p{
 #breadcrumbs-container .breadcrumb .breadcrumb-item.active{
 	color: #95a5a6;
 }
-
 #breadcrumbs-container .breadcrumb .breadcrumb-item+.breadcrumb-item::before{
 	content: ">";
 }
 #productos-container{
 	margin-bottom: 2em;
 }
-
 #productos-container .list-group-item-action.active{
 	background-color: red;
 	border-color: black;
