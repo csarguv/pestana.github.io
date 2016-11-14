@@ -25,7 +25,7 @@
     				<button class="navbar-toggler hidden-md-up" data-toggle="collapse" data-target="#navMenu">
     					&#9776;
     				</button>
-    				<a class="login hidden-xs-down text-uppercase font-weight-bold" href="#">Iniciar Sesión</a>
+    				<a class="login hidden-xs-down text-uppercase font-weight-bold" href="login.html">Iniciar Sesión</a>
     			</div>
     		</div>
     	</div>
@@ -101,7 +101,36 @@
         </div>
     </section>
     <!--breadcrumbs-->
-    formulario de contacto
+    <!--registro-->
+    <div id="login-page">
+        <div class="container">
+            <div class="row text-xs-center">
+                <div class="col-xs">
+                    <form id="login-form" method="post">
+                        <h3>Formulario de Contácto</h3><br>
+                            <label>Nombre</label><br>
+                            <input type="text" name="Nombre" required="" autofocus=""><br>
+                            <label>Apellidos</label><br>
+                            <input type="text" name="Apellidos" required=""><br>
+                            <label>Teléfono</label><br>
+                            <input type="number" name="Telefono" maxlength="9" required=""><br>
+                            <label>Correo Electrónico</label><br>
+                            <input type="email" name="email" required=""><br><br>
+                            <label>Motivo</label>
+                            <select>
+                                <option>Cuenta</option>
+                                <option>Ventas</option>
+                                <option>Soporte</option>
+                            </select><br>
+                            <label>Mensaje</label><br>
+                            <input type="textarea" name="msj" maxlength="500" required=""><br><br>
+                            <button>Enviar</button><br>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--registro-->
     <!--Footer-->
     <footer id="footer-container">
         <div class="container">
