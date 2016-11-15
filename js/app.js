@@ -1,7 +1,6 @@
 const $filtrosToggle = $('#filtrosToggle')
 $filtrosToggle.click(function (ev){
 	ev.preventDefault()
-
 	const $i = $filtrosToggle.find('i.fa')
 	const isDown = $i.hasClass('fa-chevron-down')
 	if(isDown) {

@@ -60,8 +60,6 @@
 /**
   Funciones
 */
-
-
 jQuery.Rut = {
 
   formatear:  function(Rut, digitoVerificador)
